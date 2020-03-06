@@ -69,7 +69,6 @@ class _LottieState extends State<Lottie> {
          width: 100,
             child: LottieView.fromFile(
                 onViewCreated: (e) {
-
                 },
                 filePath: "assets/images/1049-hourglass.json",
                 autoPlay: true,
@@ -77,7 +76,6 @@ class _LottieState extends State<Lottie> {
                 reverse: true,
             ),
           ),
-
         ],
       )
     );

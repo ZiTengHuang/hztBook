@@ -20,6 +20,7 @@ class _CustomPaintDemoState extends State<CustomPaintDemo> {
     );
   }
 }
+//http://m h.aa e 3点com
 
 class MyPainter extends CustomPainter {
   @override
@@ -45,6 +46,7 @@ class MyPainter extends CustomPainter {
       double dy = eHeigth * i;
       canvas.drawLine(Offset(0, dy), Offset(size.width, dy), paint);
     }
+
     for (int i = 0; i <= 15; ++i) {
       double dy = eWidht * i;
       canvas.drawLine(Offset(dy, 0), Offset(dy, size.height), paint);

@@ -10,6 +10,10 @@ class Routes{
   static String HeroPage = '/HeroPage';
   static String CustomPaintDemo = '/CustomPaintDemo';
   static String Lottie = '/Lottie';
+  static String SteperBarWidget3 = '/SteperBarWidget3';
+  static String BottomNavBar = '/BottomNavBar';
+  static String FrostedGlassDemo = '/FrostedGlassDemo';
+  static String SearchShow = '/SearchShow';
 
 
 
@@ -25,5 +29,9 @@ class Routes{
     router.define(HeroPage, handler: HeroPageHanderl,transitionType: TransitionType.native);
     router.define(CustomPaintDemo, handler: CustomPaintDemoHanderl,transitionType: TransitionType.native);
     router.define(Lottie, handler:LottieHanderl,transitionType: TransitionType.native);
+    router.define(SteperBarWidget3, handler:SteperBarWidget3Handerl,transitionType: TransitionType.native);
+    router.define(BottomNavBar, handler:BottomNavBarHanderl,transitionType: TransitionType.native);
+    router.define(FrostedGlassDemo, handler:FrostedGlassDemoHanderl,transitionType: TransitionType.native);
+    router.define(SearchShow, handler:SearchShowHanderl,transitionType: TransitionType.native);
   }
 }

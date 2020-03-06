@@ -25,15 +25,24 @@ class _WidgetsPageState extends State<WidgetsPage> {
 
   initData() {
     gridModel = [
+      new widgetsModel('SteperBarWidget3', '步骤条', icon: Icon(Icons.short_text)),
       new widgetsModel('', '日你哥dj', icon: Icon(Icons.translate)),
       new widgetsModel('', '日你哥dj', icon: Icon(Icons.translate)),
       new widgetsModel('', '日你哥dj', icon: Icon(Icons.translate)),
-      new widgetsModel('', '日你哥dj', icon: Icon(Icons.translate)),
-      new widgetsModel('FruitheroPage', '水果ui', icon: Icon(Icons.fiber_manual_record)),
-      new widgetsModel('MeasurePage', '测量用例', icon: Icon(Icons.fiber_manual_record)),
-      new widgetsModel('HeroPage', 'Hero动画', icon: Icon(Icons.text_rotation_angleup)),
+      new widgetsModel('FruitheroPage', '水果ui',
+          icon: Icon(Icons.fiber_manual_record)),
+      new widgetsModel('MeasurePage', '测量用例',
+          icon: Icon(Icons.fiber_manual_record)),
+      new widgetsModel('HeroPage', 'Hero动画',
+          icon: Icon(Icons.text_rotation_angleup)),
       new widgetsModel('CustomPaintDemo', '棋盘界面', icon: Icon(Icons.color_lens)),
-      new widgetsModel('Lottie', 'Lottie动画', icon: Icon(Icons.local_laundry_service)),
+      new widgetsModel('Lottie', 'Lottie动画',
+          icon: Icon(Icons.local_laundry_service)),
+      new widgetsModel('BottomNavBar', '底部导航', icon: Icon(Icons.border_bottom)),
+      new widgetsModel('FrostedGlassDemo', '毛玻璃效果',
+          icon: Icon(Icons.hourglass_empty)),
+      new widgetsModel('SearchShow', '搜索效果',
+          icon: Icon(Icons.hourglass_empty)),
       new widgetsModel('OnBoardingPage', '引导页',
           icon: Icon(
             Icons.pages,
@@ -98,13 +107,9 @@ class widgetsGridPlant extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
           GestureDetector(
-            onTap: (){
-
-            },
+            onTap: () {},
             child: Row(
-              children: <Widget>[
-
-              ],
+              children: <Widget>[],
             ),
           ),
           Expanded(

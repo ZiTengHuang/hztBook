@@ -41,8 +41,6 @@ class _DynamicThemeState extends State<DynamicTheme> {
   }
 
 
-
-
   @override
   Widget build(BuildContext context) {
     final router = Router();
