@@ -14,6 +14,10 @@ class Routes{
   static String BottomNavBar = '/BottomNavBar';
   static String FrostedGlassDemo = '/FrostedGlassDemo';
   static String SearchShow = '/SearchShow';
+  static String LittleAnimation = '/LittleAnimation';
+  static String DartBasic = '/DartBasic';
+  static String TikTokHomePage = '/TikTokHomePage';
+  static String FangyePage = '/FangyePage';
 
 
 
@@ -33,5 +37,9 @@ class Routes{
     router.define(BottomNavBar, handler:BottomNavBarHanderl,transitionType: TransitionType.native);
     router.define(FrostedGlassDemo, handler:FrostedGlassDemoHanderl,transitionType: TransitionType.native);
     router.define(SearchShow, handler:SearchShowHanderl,transitionType: TransitionType.native);
+    router.define(LittleAnimation, handler:LittleAnimationHanderl,transitionType: TransitionType.native);
+    router.define(TikTokHomePage, handler:TikTokHomePageHanderl,transitionType: TransitionType.native);
+    router.define(DartBasic, handler:DartBasicHanderl,transitionType: TransitionType.native);
+    router.define(FangyePage, handler:FangyePageHanderl,transitionType: TransitionType.native);
   }
 }

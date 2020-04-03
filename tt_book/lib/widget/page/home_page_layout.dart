@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tt_book/common/themes.dart';
 import 'package:tt_book/models/place_model.dart';
 import 'package:tt_book/provider/theme_provider.dart';
+import 'package:tt_book/widget/page/AnimationPages/FadeAnimation.dart';
 import 'package:tt_book/widget/page/place_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -382,20 +383,39 @@ class _HomePageState extends State<HomePage>
                   SizedBox(
                     height: 20,
                   ),
-                  FlatButton(
-                      color: Color(0xff309df1),
-                      padding: EdgeInsets.symmetric(vertical: 14),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      onPressed: () {},
-                      child: Text(
-                        'Search',
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w700),
-                      )),
+                  FadeAnimation(
+                    delay: 2.2,
+                    child: FlatButton(
+                          color: Color(0xff309df1),
+                          padding: EdgeInsets.symmetric(vertical: 14),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          onPressed: () {},
+                          child: Text(
+                            'Search',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 30,
+                                fontWeight: FontWeight.w700),
+                          )),
+                  ),
+                  Container(
+                     height: 400,
+                    width: double.infinity,
+                     child: Stack(
+                       children: <Widget>[
+                            Positioned(child: FadeAnimation(
+                              delay: 1.4,
+                              child: Container(
+                                height: 100,
+                                width: 120,
+                                color: Colors.redAccent,
+                              ),
+                            ))
+                        ],
+                     ),
+                  ),
                   SizedBox(
                     height: 10,
                   ),

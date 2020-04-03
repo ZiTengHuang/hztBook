@@ -76,9 +76,7 @@ class _PlaceScreenState extends State<PlaceScreen> {
                           color: Colors.black,
                         ),
                         Column(
-                          children: <Widget>[
-
-                          ],
+                          children: <Widget>[],
                         ),
                       ],
                     ),
@@ -92,3 +90,4 @@ class _PlaceScreenState extends State<PlaceScreen> {
     );
   }
 }
+

@@ -41,14 +41,38 @@ class _WidgetsPageState extends State<WidgetsPage> {
       new widgetsModel('BottomNavBar', '底部导航', icon: Icon(Icons.border_bottom)),
       new widgetsModel('FrostedGlassDemo', '毛玻璃效果',
           icon: Icon(Icons.hourglass_empty)),
-      new widgetsModel('SearchShow', '搜索效果',
-          icon: Icon(Icons.hourglass_empty)),
+      new widgetsModel('SearchShow', '搜索效果', icon: Icon(Icons.hourglass_empty)),
       new widgetsModel('OnBoardingPage', '引导页',
           icon: Icon(
             Icons.pages,
             color: Colors.pink,
           ),
           color: Colors.green),
+      new widgetsModel('LittleAnimation', '渐渐显示动画',
+          icon: Icon(
+            Icons.favorite,
+            color: Colors.redAccent,
+          ),
+          color: Colors.green),
+      new widgetsModel('TikTokHomePage', 'tiktok',
+          icon: Icon(
+            Icons.filter_tilt_shift,
+            color: Colors.blue,
+          ),
+          color: Colors.yellow),
+      new widgetsModel('DartBasic', 'Dart基础',
+          icon: Icon(
+            Icons.battery_std,
+            color: Colors.cyan,
+          ),
+          color: Colors.yellow),
+
+      new widgetsModel('FangyePage', '翻转动画',
+          icon: Icon(
+            Icons.battery_std,
+            color: Colors.cyan,
+          ),
+          color: Colors.yellow),
     ];
   }
 

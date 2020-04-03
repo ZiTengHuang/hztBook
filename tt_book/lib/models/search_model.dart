@@ -1,18 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:shape_of_view/generated/i18n.dart';
 
 class SearchModel {
   final List<SearchItem> data;
+  String keyWork;
 
-  SearchModel({this.data});
+  SearchModel({this.data , this.keyWork});
 
   factory SearchModel.fromJson(Map<String, dynamic> json) {
-        var dataJson =  json['data'] as List;
-        List<SearchItem> data = dataJson.map((value) => SearchItem.fromJson(value)).toList();
-
-        return SearchModel(data:  data);
-   }
+    var dataJson = json['data'] as List;
+    List<SearchItem> data2 ;
+    dataJson.map((v){
+        data2.add(SearchItem.fromJson(v));
+    });
+    List<SearchItem> data =
+        dataJson.map((value) => SearchItem.fromJson(value)).toList();
+    return SearchModel(data: data);
+  }
 }
-
 
 class SearchItem {
   final String word; //xx酒店
