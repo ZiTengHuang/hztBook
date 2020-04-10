@@ -73,6 +73,13 @@ class _WidgetsPageState extends State<WidgetsPage> {
             color: Colors.cyan,
           ),
           color: Colors.yellow),
+
+      new widgetsModel('BasicGrid', 'grid 布局',
+          icon: Icon(
+            Icons.grid_on,
+            color: Colors.cyan,
+          ),
+          color: Colors.yellow),
     ];
   }
 

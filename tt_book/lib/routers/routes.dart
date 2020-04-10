@@ -18,6 +18,7 @@ class Routes{
   static String DartBasic = '/DartBasic';
   static String TikTokHomePage = '/TikTokHomePage';
   static String FangyePage = '/FangyePage';
+  static String BasicGrid = '/BasicGrid';
 
 
 
@@ -41,5 +42,6 @@ class Routes{
     router.define(TikTokHomePage, handler:TikTokHomePageHanderl,transitionType: TransitionType.native);
     router.define(DartBasic, handler:DartBasicHanderl,transitionType: TransitionType.native);
     router.define(FangyePage, handler:FangyePageHanderl,transitionType: TransitionType.native);
+    router.define(BasicGrid, handler:BasicGridHanderl,transitionType: TransitionType.native);
   }
 }
