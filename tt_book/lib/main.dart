@@ -3,6 +3,7 @@ import 'package:flustars/flustars.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tt_book/models/jsonExample.dart';
+import 'package:tt_book/provider/gridData_provider.dart';
 import 'package:tt_book/provider/theme_provider.dart';
 import 'package:tt_book/routers/Application.dart';
 import 'package:tt_book/routers/routes.dart';
@@ -58,6 +59,7 @@ class _DynamicThemeState extends State<DynamicTheme> {
 //            ChangeNotifierProvider(
 //                builder: (context) => IndexNotifier(), child: MainPage()),
             ChangeNotifierProvider<CounterProvide>(create: (_) => CounterProvide()),
+            ChangeNotifierProvider<GridDataProvider>(create:(_) => GridDataProvider()),
 //            Provider<CounterProvide>(create: (_)=>CounterProvide()),
           ],child: MainPage(),)
         );

@@ -84,7 +84,12 @@ class _WidgetsPageState extends State<WidgetsPage> {
       new widgetsModel('ListListenerOpactiv', '滚动渐变',
           icon: Icon(
             Icons.line_style,
-            color: Colors.amber,
+            color: Colors.amber,)),
+
+      new widgetsModel('BasicGrid', 'grid 布局',
+          icon: Icon(
+            Icons.grid_on,
+            color: Colors.cyan,
           ),
           color: Colors.yellow),
     ];

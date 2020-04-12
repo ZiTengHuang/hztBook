@@ -128,6 +128,8 @@ class _GradientCircleProgressIndicatorPainter extends CustomPainter{
   final double radius;
   final List<double> stops;
 
+
+
   @override
   void paint(Canvas canvas, Size size) {
     // TODO: implement paint
@@ -141,9 +143,6 @@ class _GradientCircleProgressIndicatorPainter extends CustomPainter{
     _value  = _value.clamp(.0, 1.0) * total;
     /// 起始坐标
     double _start = .0;
-
-
-
   }
 
 

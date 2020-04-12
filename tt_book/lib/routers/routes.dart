@@ -20,6 +20,7 @@ class Routes{
   static String FangyePage = '/FangyePage';
   static String FavAnimation = '/FavAnimation';
   static String ListListenerOpactiv = '/ListListenerOpactiv';
+  static String BasicGrid = '/BasicGrid';
 
 
 
@@ -45,5 +46,6 @@ class Routes{
     router.define(FangyePage, handler:FangyePageHanderl,transitionType: TransitionType.native);
     router.define(FavAnimation, handler:FavAnimationHanderl,transitionType: TransitionType.native);
     router.define(ListListenerOpactiv, handler:ListListenerOpactivHanderl,transitionType: TransitionType.native);
+    router.define(BasicGrid, handler:BasicGridHanderl,transitionType: TransitionType.native);
   }
 }

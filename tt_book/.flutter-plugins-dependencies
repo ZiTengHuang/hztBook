@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"_info":"// This is a generated file; do not edit or check into version control.","dependencyGraph":[{"name":"flutter_lottie","dependencies":[]},{"name":"flutter_webview_plugin","dependencies":[]},{"name":"path_provider","dependencies":["path_provider_macos"]},{"name":"path_provider_macos","dependencies":[]},{"name":"shared_preferences","dependencies":["shared_preferences_macos","shared_preferences_web"]},{"name":"shared_preferences_macos","dependencies":[]},{"name":"shared_preferences_web","dependencies":[]}]}
-=======
-{"_info":"// This is a generated file; do not edit or check into version control.","dependencyGraph":[{"name":"flutter_lottie","dependencies":[]},{"name":"flutter_webview_plugin","dependencies":[]},{"name":"path_provider","dependencies":[]},{"name":"shared_preferences","dependencies":[]}]}
->>>>>>> 6152cbfbd73e5c7aa3fe3a6d414762b87e09e14d
