@@ -1,7 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b39089-a310-4564-87eb-c80affa007ea" name="Default Changelist" comment="" />
+    <list default="true" id="c2b39089-a310-4564-87eb-c80affa007ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/kotlin/com/hzt/tt_book/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/kotlin/com/hzt/tt_book/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/1049-hourglass.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/1049-hourglass.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/109-bouncy-loader.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/109-bouncy-loader.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/142-loading-animation.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/142-loading-animation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/15998-flip-card.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/15998-flip-card.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/17433-lucky-drawred-packet-btn.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/17433-lucky-drawred-packet-btn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/201-simple-loader.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/201-simple-loader.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/2853-circle-red-button.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/2853-circle-red-button.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/8608-simple-radar-ripple-effect.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/8608-simple-radar-ripple-effect.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/lf30_editor_8n16I8.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/lf30_editor_8n16I8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/lf30_editor_Fn31Jf.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/lf30_editor_Fn31Jf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/lf30_editor_JNu6oh.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/lf30_editor_JNu6oh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/lf30_editor_U5Fx0f.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/lf30_editor_U5Fx0f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/assets/images/lottie.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/assets/images/lottie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Flutter/Flutter.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Flutter/Flutter.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/common/themes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/common/themes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/costom/WebTermsOfServicePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/costom/WebTermsOfServicePage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/customView/circleView.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/customView/circleView.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/dao/search_dao.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/dao/search_dao.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/dart/basic_bool_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/dart/basic_bool_list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/models/jsonExample.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/models/jsonExample.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/models/search_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/models/search_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/net/ApiInterface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/net/ApiInterface.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/provider/count_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/provider/count_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/provider/theme_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/provider/theme_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/res/gaps.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/res/gaps.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/routers/Application.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/routers/Application.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/routers/router_handler.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/routers/router_handler.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/routers/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/routers/routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/util/theme_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/util/theme_utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/basic/frosted_glass_demo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/basic/frosted_glass_demo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/FadeAnimation.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/FadeAnimation.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/Lottie.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/Lottie.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/fangye_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/fangye_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/hero.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/hero.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/MeasurePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/MeasurePage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/common/banner_layout.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/common/banner_layout.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/fruitheros/fruithero_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/fruitheros/fruithero_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/launchePage/GreatWave.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/launchePage/GreatWave.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/launchePage/Onboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/launchePage/Onboarding.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/launchePage/Reject.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/launchePage/Reject.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/launchePage/Samurai.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/launchePage/Samurai.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/living/livingPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/living/livingPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/my_page_layout.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/my_page_layout.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/oneCode/BottomNavBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/oneCode/BottomNavBar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/oneCode/NewsPaperPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/oneCode/NewsPaperPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/place_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/place_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/provide/countr_provide.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/provide/countr_provide.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/provide/indexNotifier.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/provide/indexNotifier.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/provide/offsetNotifier.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/provide/offsetNotifier.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/search/search_demo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/search/search_demo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/search/search_show.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/search/search_show.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/tiktok/tiktok_home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/tiktok/tiktok_home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/view/CustomPaintDemo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/view/CustomPaintDemo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/view/littleAnimation.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/view/littleAnimation.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/widgets/PageIndicator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/widgets/PageIndicator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,8 +133,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_29" />
   <component name="FileEditorManager">
@@ -19,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/animationsWidget/FavAnimation.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="537">
-              <caret line="92" column="50" lean-forward="true" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+              <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -27,11 +150,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/scroller/listListenerOpactiv.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+            <state relative-caret-position="648">
+              <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tt_book/lib/routers/router_handler.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt_book/lib/routers/routes.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +199,7 @@
         <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/FadeAnimation.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -93,14 +252,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tt_book/lib/widget/animationsWidget/FavAnimation.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/widget/scroller/listListenerOpactiv.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/routers/routes.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/routers/router_handler.dart" />
-        <option value="$PROJECT_DIR$/tt_book/lib/routers/routes.dart" />
-        <option value="$PROJECT_DIR$/tt_book/lib/widget/scroller/listListenerOpactiv.dart" />
       </list>
     </option>
   </component>
@@ -154,72 +316,7 @@
               <item name="tt_book" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hztBook-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook-master" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hztBook-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook-master" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="AnimationPages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hztBook-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook-master" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="provide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hztBook-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook-master" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="scroller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hztBook-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook-master" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hztBook-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook-master" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="tiktok" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hztBook-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook-master" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hztBook-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook-master" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,7 +392,7 @@
       <window_info anchor="bottom" id="Run" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6169194" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32960895" />
@@ -304,7 +401,7 @@
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Flutter Inspector" order="2" />
       <window_info anchor="right" id="Flutter Outline" order="3" />
-      <window_info anchor="right" id="Word Book" order="4" side_tool="true" />
+      <window_info anchor="right" id="Word Book" order="4" side_tool="true" weight="0.32949728" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Flutter Performance" order="6" />
     </layout>
@@ -410,7 +507,7 @@
     <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/FadeAnimation.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -420,27 +517,24 @@
     <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/animationsWidget/FavAnimation.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
-          <caret line="92" column="50" lean-forward="true" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+          <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/routers/routes.dart">
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/scroller/listListenerOpactiv.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="648">
+          <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/routers/router_handler.dart">
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/routers/routes.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="450">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -449,18 +543,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="919">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="775">
+          <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/scroller/listListenerOpactiv.dart">
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/routers/router_handler.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        <state relative-caret-position="918">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

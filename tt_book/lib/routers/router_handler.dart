@@ -14,6 +14,7 @@ import 'package:tt_book/widget/page/launchePage/Onboarding.dart';
 import 'package:tt_book/widget/page/oneCode/BottomNavBar.dart';
 import 'package:tt_book/widget/provide/indexNotifier.dart';
 import 'package:tt_book/widget/scroller/listListenerOpactiv.dart';
+
 import 'package:tt_book/widget/search/search_show.dart';
 import 'package:tt_book/widget/tiktok/tiktok_home_page.dart';
 import 'package:tt_book/widget/view/CustomPaintDemo.dart';
@@ -98,7 +99,6 @@ Handler FangyePageHanderl = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> params) {
   return FangyePage();
 });
-
 Handler FavAnimationHanderl = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> params) {
   return FavAnimation();
