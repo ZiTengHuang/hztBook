@@ -8,7 +8,6 @@ PODS:
   - lottie-ios (2.5.3)
   - path_provider (0.0.1):
     - Flutter
-<<<<<<< HEAD
   - path_provider_macos (0.0.1):
     - Flutter
   - shared_preferences (0.0.1):
@@ -17,17 +16,12 @@ PODS:
     - Flutter
   - shared_preferences_web (0.0.1):
     - Flutter
-=======
-  - shared_preferences (0.0.1):
-    - Flutter
->>>>>>> 6152cbfbd73e5c7aa3fe3a6d414762b87e09e14d
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_lottie (from `.symlinks/plugins/flutter_lottie/ios`)
   - flutter_webview_plugin (from `.symlinks/plugins/flutter_webview_plugin/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
-<<<<<<< HEAD
   - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
   - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
   - shared_preferences_macos (from `.symlinks/plugins/shared_preferences_macos/ios`)
@@ -35,12 +29,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-=======
-  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
-
-SPEC REPOS:
-  trunk:
->>>>>>> 6152cbfbd73e5c7aa3fe3a6d414762b87e09e14d
     - lottie-ios
 
 EXTERNAL SOURCES:
@@ -52,7 +40,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_webview_plugin/ios"
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
-<<<<<<< HEAD
   path_provider_macos:
     :path: ".symlinks/plugins/path_provider_macos/ios"
   shared_preferences:
@@ -61,10 +48,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/shared_preferences_macos/ios"
   shared_preferences_web:
     :path: ".symlinks/plugins/shared_preferences_web/ios"
-=======
-  shared_preferences:
-    :path: ".symlinks/plugins/shared_preferences/ios"
->>>>>>> 6152cbfbd73e5c7aa3fe3a6d414762b87e09e14d
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
@@ -72,7 +55,6 @@ SPEC CHECKSUMS:
   flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
-<<<<<<< HEAD
   path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
   shared_preferences: 430726339841afefe5142b9c1f50cb6bd7793e01
   shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
@@ -81,10 +63,3 @@ SPEC CHECKSUMS:
 PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
 
 COCOAPODS: 1.7.1
-=======
-  shared_preferences: 430726339841afefe5142b9c1f50cb6bd7793e01
-
-PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
-
-COCOAPODS: 1.8.3
->>>>>>> 6152cbfbd73e5c7aa3fe3a6d414762b87e09e14d
