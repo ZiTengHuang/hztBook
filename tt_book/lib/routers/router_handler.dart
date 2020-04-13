@@ -23,6 +23,9 @@ import 'package:tt_book/widget/view/CustomPaintDemo.dart';
 import 'package:tt_book/widget/view/littleAnimation.dart';
 import 'package:tt_book/widget/view/steper_bar_widget3.dart';
 
+import '../widget/view/BezierViewBasic.dart';
+import '../widget/view/BezierExample.dart';
+
 /// 跳转抽奖界面
 Handler OnBoardingHanderl = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> params) {
@@ -111,6 +114,19 @@ Handler ListListenerOpactivHanderl = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> params) {
   return ListListenerOpactiv();
 });
+
+Handler BezierViewBasicHanderl = Handler(
+    handlerFunc: (BuildContext context, Map<String, List<String>> params) {
+  return BezierViewBasic();
+});
+
+
+Handler BezierExampleHanderl = Handler(
+    handlerFunc: (BuildContext context, Map<String, List<String>> params) {
+  return BezierExample();
+});
+
+
 Handler BasicGridHanderl = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> params) {
       return ChangeNotifierProvider(create: (_) => GridDataProvider(), child: BasicGrid(),);

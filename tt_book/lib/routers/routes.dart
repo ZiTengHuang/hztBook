@@ -21,6 +21,8 @@ class Routes{
   static String FavAnimation = '/FavAnimation';
   static String ListListenerOpactiv = '/ListListenerOpactiv';
   static String BasicGrid = '/BasicGrid';
+  static String BezierViewBasic = '/BezierViewBasic';
+  static String BezierExample = '/BezierExample';
 
 
 
@@ -47,5 +49,7 @@ class Routes{
     router.define(FavAnimation, handler:FavAnimationHanderl,transitionType: TransitionType.native);
     router.define(ListListenerOpactiv, handler:ListListenerOpactivHanderl,transitionType: TransitionType.native);
     router.define(BasicGrid, handler:BasicGridHanderl,transitionType: TransitionType.native);
+    router.define(BezierViewBasic, handler:BezierViewBasicHanderl,transitionType: TransitionType.native);
+    router.define(BezierExample, handler:BezierExampleHanderl,transitionType: TransitionType.native);
   }
 }

@@ -26,9 +26,7 @@ class _WidgetsPageState extends State<WidgetsPage> {
   initData() {
     gridModel = [
       new widgetsModel('SteperBarWidget3', '步骤条', icon: Icon(Icons.short_text)),
-      new widgetsModel('', '日你哥dj', icon: Icon(Icons.translate)),
-      new widgetsModel('', '日你哥dj', icon: Icon(Icons.translate)),
-      new widgetsModel('', '日你哥dj', icon: Icon(Icons.translate)),
+
       new widgetsModel('FruitheroPage', '水果ui',
           icon: Icon(Icons.fiber_manual_record)),
       new widgetsModel('MeasurePage', '测量用例',
@@ -90,6 +88,20 @@ class _WidgetsPageState extends State<WidgetsPage> {
           icon: Icon(
             Icons.grid_on,
             color: Colors.cyan,
+          ),
+          color: Colors.yellow),
+
+      new widgetsModel('BezierViewBasic', '贝赛尔教学',
+          icon: Icon(
+            Icons.beach_access,
+            color: Colors.deepPurple,
+          ),
+          color: Colors.yellow),
+
+      new widgetsModel('BezierExample', '贝赛尔实践',
+          icon: Icon(
+            Icons.beach_access,
+            color: Colors.green,
           ),
           color: Colors.yellow),
     ];
