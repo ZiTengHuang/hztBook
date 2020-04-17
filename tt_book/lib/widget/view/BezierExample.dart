@@ -31,6 +31,13 @@ class _BezierExampleState extends State<BezierExample>
   }
 
   @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+    _tabController.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Theme(
       data: ThemeData(primaryColor: Colors.deepOrange),
@@ -141,9 +148,7 @@ class BezierClipper extends CustomClipper<Path> {
     var path = new Path();
     path.lineTo(0, 0);
     path.lineTo(0, size.height - 60);
-
     ///贝赛尔 需要一个控制点  一个尾点
-
     Offset firshCoin = Offset(size.width / 2, size.height);
     Offset endCoin = Offset(size.width, size.height - 60);
     path.quadraticBezierTo(firshCoin.dx, firshCoin.dy, endCoin.dx, endCoin.dy);

@@ -38,13 +38,9 @@ class _BezierViewBasicState extends State<BezierViewBasic> {
 class BezierPainter extends CustomPainter {
   Paint _gridPaint;
   Path _gridPath;
-
   Paint _mainPaint;
-
   Path _mainPaht;
-
   Paint _helpPaint;
-
   Offset p0 = Offset(0, 0);
   Offset p1 = Offset(100, 100);
   Offset p2 = Offset(120, -60);

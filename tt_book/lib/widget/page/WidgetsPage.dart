@@ -104,6 +104,27 @@ class _WidgetsPageState extends State<WidgetsPage> {
             color: Colors.green,
           ),
           color: Colors.yellow),
+
+      new widgetsModel('OnBoardings', '引导页指示器',
+          icon: Icon(
+            Icons.sync_problem,
+            color: Colors.green,
+          ),
+          color: Colors.yellow),
+
+      new widgetsModel('ScanWidget', '扫一扫',
+          icon: Icon(
+            Icons.settings_overscan,
+            color: Colors.green,
+          ),
+          color: Colors.yellow),
+
+      new widgetsModel('BasicViewOnDraw', '自定义view',
+          icon: Icon(
+            Icons.layers,
+            color: Colors.yellowAccent,
+          ),
+          color: Colors.yellow),
     ];
   }
 

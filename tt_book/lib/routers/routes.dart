@@ -23,6 +23,9 @@ class Routes{
   static String BasicGrid = '/BasicGrid';
   static String BezierViewBasic = '/BezierViewBasic';
   static String BezierExample = '/BezierExample';
+  static String OnBoardings = '/OnBoardings';
+  static String ScanWidget = '/ScanWidget';
+  static String BasicViewOnDraw = '/BasicViewOnDraw';
 
 
 
@@ -51,5 +54,8 @@ class Routes{
     router.define(BasicGrid, handler:BasicGridHanderl,transitionType: TransitionType.native);
     router.define(BezierViewBasic, handler:BezierViewBasicHanderl,transitionType: TransitionType.native);
     router.define(BezierExample, handler:BezierExampleHanderl,transitionType: TransitionType.native);
+    router.define(OnBoardings, handler:OnBoardingsHanderl,transitionType: TransitionType.native);
+    router.define(ScanWidget, handler:ScanWidgetHanderl,transitionType: TransitionType.native);
+    router.define(BasicViewOnDraw, handler:BasicViewOnDrawHanderl,transitionType: TransitionType.native);
   }
 }
