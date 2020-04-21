@@ -18,6 +18,12 @@
       <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/flutter_webview_plugin/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/flutter_webview_plugin/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/flutter_webview_plugin/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/nfc_in_flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/nfc_in_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/nfc_in_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/nfc_in_flutter/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/nfc_in_flutter/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/nfc_in_flutter/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/path_provider/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/path_provider/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/tt_book/ios/.symlinks/plugins/path_provider/build" />

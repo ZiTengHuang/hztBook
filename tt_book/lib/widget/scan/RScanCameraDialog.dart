@@ -32,6 +32,8 @@ class _RScanCameraDialogState extends State<RScanCameraDialog> {
         }
       }
     }
+
+
     if (rScanCameras != null && rScanCameras.length > 0) {
       _controller = RScanCameraController(
           rScanCameras[0], RScanCameraResolutionPreset.high)
@@ -49,7 +51,7 @@ class _RScanCameraDialogState extends State<RScanCameraDialog> {
             return;
           }
           setState(() {});
-        });
+      });
     }
   }
 
@@ -78,6 +80,7 @@ class _RScanCameraDialogState extends State<RScanCameraDialog> {
     if (!_controller.value.isInitialized) {
       return Container();
     }
+
     return Scaffold(
       backgroundColor: Colors.black,
       body: Stack(
