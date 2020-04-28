@@ -26,6 +26,8 @@ class Routes{
   static String OnBoardings = '/OnBoardings';
   static String ScanWidget = '/ScanWidget';
   static String BasicViewOnDraw = '/BasicViewOnDraw';
+  static String SliverPageDetails = '/SliverPageDetails';
+  static String MixtureAnimation = '/MixtureAnimation';
 
 
 
@@ -57,5 +59,7 @@ class Routes{
     router.define(OnBoardings, handler:OnBoardingsHanderl,transitionType: TransitionType.native);
     router.define(ScanWidget, handler:ScanWidgetHanderl,transitionType: TransitionType.native);
     router.define(BasicViewOnDraw, handler:BasicViewOnDrawHanderl,transitionType: TransitionType.native);
+    router.define(SliverPageDetails, handler:SliverPageDetailsHanderl,transitionType: TransitionType.native);
+    router.define(MixtureAnimation, handler:MixtureAnimationHanderl,transitionType: TransitionType.native);
   }
 }

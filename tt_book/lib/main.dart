@@ -50,19 +50,19 @@ class _DynamicThemeState extends State<DynamicTheme> {
     return ChangeNotifierProvider<ThemeProvider>(
       create: (_) => ThemeProvider(),
       child:Consumer<ThemeProvider >(builder: (_,provider,__){
-        return  MaterialApp(
-          title: '小黄书院',
-          color: Colors.amber,
-          theme: provider.getTheme(),
-          darkTheme: provider.getTheme(isDarkMode: false),
-          home: MultiProvider(providers: [
+        return  MultiProvider(providers: [
 //            ChangeNotifierProvider(
 //                builder: (context) => IndexNotifier(), child: MainPage()),
-            ChangeNotifierProvider<CounterProvide>(create: (_) => CounterProvide()),
-            ChangeNotifierProvider<GridDataProvider>(create:(_) => GridDataProvider()),
+        ChangeNotifierProvider<CounterProvide>(create: (_) => CounterProvide()),
+        ChangeNotifierProvider<GridDataProvider>(create:(_) => GridDataProvider()),
 //            Provider<CounterProvide>(create: (_)=>CounterProvide()),
-          ],child: MainPage(),)
-        );
+        ],child: MaterialApp(
+            title: '小黄书院',
+            color: Colors.amber,
+            theme: provider.getTheme(),
+            darkTheme: provider.getTheme(isDarkMode: false),
+            home:  MainPage(),
+        ),);
       }),
     );
   }

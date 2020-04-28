@@ -125,6 +125,21 @@ class _WidgetsPageState extends State<WidgetsPage> {
             color: Colors.yellowAccent,
           ),
           color: Colors.yellow),
+
+      new widgetsModel('SliverPageDetails', 'sliver学习',
+          icon: Icon(
+            Icons.layers,
+            color: Colors.red,
+          ),
+          color: Colors.yellow),
+
+      new widgetsModel('MixtureAnimation', '合并扩张动画',
+          icon: Icon(
+            Icons.forward,
+            color: Colors.red,
+          ),
+          color: Colors.yellow),
+
     ];
   }
 

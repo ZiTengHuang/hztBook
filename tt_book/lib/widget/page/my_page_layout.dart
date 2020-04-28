@@ -1,5 +1,6 @@
 import 'package:flip_box_bar/flip_box_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:tt_book/widget/myEnglish/myEngelish.dart';
 import 'package:tt_book/widget/page/WidgetsPage.dart';
 
 import 'home_page_layout.dart';
@@ -21,7 +22,7 @@ class _MainPageState extends State<MainPage> {
     WidgetsPage(),
     HomePage(),
     JacksmanPage(),
-    WidgetsPage(),
+    MyEngelish(),
   ];
 
   void onTap(int index) {

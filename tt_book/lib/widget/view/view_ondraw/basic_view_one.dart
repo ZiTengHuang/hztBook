@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 class BasicViewOne extends StatelessWidget {
   @override
@@ -65,9 +66,12 @@ class BasicViewOnePainter extends CustomPainter {
     ..strokeWidth = 13;
 
   Paint _arcPaint = new Paint()
-  ..style = PaintingStyle.stroke
-  ..color =Colors.green
-  ..strokeWidth =2 ;
+    ..style = PaintingStyle.stroke
+    ..color = Colors.green
+    ..strokeWidth = 2;
+
+  double progress = 1;
+
   @override
   void paint(Canvas canvas, Size size) {
     // TODO: implement paint
@@ -103,11 +107,20 @@ class BasicViewOnePainter extends CustomPainter {
           ..strokeCap = StrokeCap.round
           ..style = PaintingStyle.stroke);
 
-    canvas.drawArc(Rect.fromLTRB(40, 460, 190, 610), 0.0, 0.2, true, _arcPaint..style =PaintingStyle.stroke);
-    canvas.drawArc(Rect.fromLTRB(40, 460, 190, 610), 0.3, 0.5, true, _arcPaint ..color=Colors.deepPurple);
-    canvas.drawArc(Rect.fromLTRB(40, 460, 190, 610), 0.6, 0.9, true, _arcPaint ..color=Colors.red);
-    canvas.drawArc(Rect.fromLTRB(40, 460, 190, 610), 0.9, 1.8, false, _arcPaint ..color=Colors.red..style = PaintingStyle.fill);
-
+    canvas.drawArc(Rect.fromLTRB(40, 460, 190, 610), 0.0, 0.2, true,
+        _arcPaint..style = PaintingStyle.stroke);
+    canvas.drawArc(Rect.fromLTRB(40, 460, 190, 610), 0.3, 0.5, true,
+        _arcPaint..color = Colors.deepPurple);
+    canvas.drawArc(Rect.fromLTRB(40, 460, 190, 610), 0.6, 0.9, true,
+        _arcPaint..color = Colors.red);
+    canvas.drawArc(
+        Rect.fromLTRB(40, 460, 190, 610),
+        pi / 2,
+        -progress * (pi * 2),
+        true,
+        _arcPaint
+          ..color = Colors.red
+          ..style = PaintingStyle.fill);
   }
 
   @override

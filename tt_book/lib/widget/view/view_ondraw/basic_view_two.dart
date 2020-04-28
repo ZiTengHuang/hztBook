@@ -1,7 +1,7 @@
-import 'dart:ui';
-
+import 'dart:typed_data';
 import 'package:flutter/material.dart';
-
+import 'dart:ui' as ui;
+import 'package:flutter/services.dart';
 class BasicViewTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,11 +18,8 @@ class ClipExample extends CustomPainter {
     ..color = Colors.blue
     ..style = PaintingStyle.stroke
     ..strokeWidth = 2;
-
   Path pathCricle = new Path()..addOval(Rect.fromLTRB(50, 50, 200, 200));
-
   Path pathCricle2 = new Path()..addOval(Rect.fromLTRB(150, 50, 300, 200));
-
   Path pathCricle3 = new Path()
     ..lineTo(100, 350) //因为不是4个点  所以从0。0 开始画到这个坐标
     ..relativeLineTo(100, 0) //在他绘制完成的终点在衍生一条线
@@ -44,14 +41,32 @@ class ClipExample extends CustomPainter {
 
   ///close() 和 lineTo(起点坐标) 是完全等价的。
 
-  Offset circleOffset = Offset(100,600);
-  Offset circleOffset2 = Offset(200,600);
+  Offset circleOffset = Offset(100, 600);
+  Offset circleOffset2 = Offset(200, 600);
 
-  var image = Image.asset('');
+  var image2;
+  ui.Paragraph  pg;
+  ClipExample() {
+    load('assets/images/wufu/lu.png').then((val) {
+      image2 = val;
+    });
+
+
+    ui.ParagraphBuilder pb = new ui.ParagraphBuilder(ui.ParagraphStyle(
+      textAlign: TextAlign.left,
+      fontWeight: FontWeight.bold,
+      fontStyle: FontStyle.normal,
+      fontSize: 24,
+    ))
+      ..pushStyle(ui.TextStyle(color: Colors.black87))
+      ..addText('我日哦');
+    //绘制的宽度
+    pg = pb.build()..layout(new ui.ParagraphConstraints(width: 120));
+  }
+
 
   @override
   void paint(Canvas canvas, Size size) {
-
     canvas.drawPath(pathCricle, _paint);
     canvas.drawPath(
       pathCricle2,
@@ -75,14 +90,27 @@ class ClipExample extends CustomPainter {
           ..color = Colors.black87
           ..style = PaintingStyle.fill
           ..colorFilter = ColorFilter.linearToSrgbGamma());
-    canvas.drawCircle(circleOffset ,80 ,_paint..style = PaintingStyle.stroke..strokeWidth = 3);
-    canvas.drawCircle(circleOffset2 ,80 ,_paint);
-//    canvas.drawImage(this.image, Offset(0, 2), _paint);
-   }
+    canvas.drawCircle(
+        circleOffset,
+        80,
+        _paint
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = 3);
+    canvas.drawCircle(circleOffset2, 80, _paint);
+    canvas.drawImage(image2, Offset(150, 600), _paint..color = Colors.black87);
+    canvas.drawParagraph(pg, Offset(150, 400));
+  }
 
   @override
   bool shouldRepaint(CustomPainter oldDelegate) {
     // TODO: implement shouldRepaint
     return null;
   }
+}
+
+Future<ui.Image> load(String asset) async {
+  ByteData data = await rootBundle.load(asset);
+  ui.Codec codec = await ui.instantiateImageCodec(data.buffer.asUint8List());
+  ui.FrameInfo fi = await codec.getNextFrame();
+  return fi.image;
 }

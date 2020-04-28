@@ -29,7 +29,7 @@ class _BasicViewOnDrawState extends State<BasicViewOnDraw>
   void initState() {
     // TODO: implement initState
     super.initState();
-    _tabController = new TabController(length: bodis.length, vsync: this,initialIndex: 1);
+    _tabController = new TabController(length: bodis.length, vsync: this,initialIndex: 2);
   }
 
   @override

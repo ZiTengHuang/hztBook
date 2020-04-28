@@ -10,6 +10,7 @@ import 'package:tt_book/widget/onboarding/onboardings.dart';
 import 'package:tt_book/widget/page/AnimationPages/Lottie.dart';
 import 'package:tt_book/widget/page/AnimationPages/fangye_page.dart';
 import 'package:tt_book/widget/page/AnimationPages/hero.dart';
+import 'package:tt_book/widget/page/AnimationPages/postionAndFade.dart';
 import 'package:tt_book/widget/page/MeasurePage.dart';
 import 'package:tt_book/widget/page/fruitheros/fruithero_page.dart';
 import 'package:tt_book/widget/page/grid/basic_grid.dart';
@@ -25,7 +26,7 @@ import 'package:tt_book/widget/view/CustomPaintDemo.dart';
 import 'package:tt_book/widget/view/littleAnimation.dart';
 import 'package:tt_book/widget/view/steper_bar_widget3.dart';
 import 'package:tt_book/widget/view/view_ondraw/BasicViewOnDraw.dart';
-
+import 'package:tt_book/widget/page/sliver/SliverPageDetails.dart';
 import '../widget/view/BezierViewBasic.dart';
 import '../widget/view/BezierExample.dart';
 
@@ -143,8 +144,17 @@ Handler BasicViewOnDrawHanderl = Handler(
 
 Handler BasicGridHanderl = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> params) {
-  return ChangeNotifierProvider(
-    create: (_) => GridDataProvider(),
-    child: BasicGrid(),
-  );
+  return BasicGrid();
+});
+
+
+Handler SliverPageDetailsHanderl = Handler(
+    handlerFunc: (BuildContext context, Map<String, List<String>> params) {
+  return SliverPageDetails();
+});
+
+
+Handler MixtureAnimationHanderl = Handler(
+    handlerFunc: (BuildContext context, Map<String, List<String>> params) {
+  return MixtureAnimation();
 });

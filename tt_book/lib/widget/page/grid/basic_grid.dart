@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tt_book/models/post.dart';
+import 'package:tt_book/provider/count_provider.dart';
 import 'package:tt_book/provider/gridData_provider.dart';
 
 class BasicGrid extends StatefulWidget {
@@ -20,6 +21,7 @@ class _BasicGridState extends State<BasicGrid> {
       ),
       body: Column(
         children: <Widget>[
+
           Container(
               color: Colors.black,
               padding: EdgeInsets.all(10),
@@ -37,6 +39,8 @@ class _BasicGridState extends State<BasicGrid> {
                           index, Provider.of<GridDataProvider>(context).data);
                     });
               })),
+          _wdema(),
+
           Container(
             color: Colors.blue,
             height: height * 0.6,
@@ -50,14 +54,21 @@ class _BasicGridState extends State<BasicGrid> {
                   child: NavigatorLeftBar(),
                 ),
                 ContextShow(),
+
               ],
             ),
-          )
+          ),
         ],
       ),
     );
   }
 
+
+  _wdema(){
+    return Consumer2<CountProvider,GridDataProvider>(builder: (context,notifier,notifier2,_){
+      return Text('${notifier.value}');
+    });
+  }
   _gridItem(index, List<Post> data) {
     return Consumer<GridDataProvider>(builder: (_, notifier, child) {
       return GestureDetector(
