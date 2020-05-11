@@ -45,6 +45,8 @@ dependencies:
   permission_handler: ^3.0.0
   nfc_in_flutter: ^2.0.4
   after_layout:
+  shared_preferences:
+
 
 
 

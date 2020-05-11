@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tt_book/common/themes.dart';
 import 'package:tt_book/models/place_model.dart';
 import 'package:tt_book/provider/theme_provider.dart';
+import 'package:tt_book/subject/colorThemePage.dart';
 import 'package:tt_book/widget/page/AnimationPages/FadeAnimation.dart';
 import 'package:tt_book/widget/page/place_screen.dart';
 import 'package:provider/provider.dart';
@@ -129,7 +130,22 @@ class _HomePageState extends State<HomePage>
                         Icons.accessibility_new,
                         color: Colors.white,
                       ),
-                      title: Text('是谁的心呐'),
+                      title: Text('切换主题颜色'),
+                      onTap: () {
+                           Navigator.push(context, MaterialPageRoute(builder: (_){
+                                return ColorThemePage();
+                           }));
+                      },
+                      onLongPress: () {
+                        print('changan');
+                      },
+                    ),
+                    ListTile(
+                      leading: Icon(
+                        Icons.accessibility_new,
+                        color: Colors.white,
+                      ),
+                      title: Text('切换语言'),
                       onTap: () {},
                       onLongPress: () {
                         print('changan');
@@ -140,7 +156,7 @@ class _HomePageState extends State<HomePage>
                         Icons.accessibility_new,
                         color: Colors.white,
                       ),
-                      title: Text('被孤单留下'),
+                      title: Text('切换字体'),
                       onTap: () {},
                       onLongPress: () {
                         print('changan');
@@ -151,18 +167,7 @@ class _HomePageState extends State<HomePage>
                         Icons.accessibility_new,
                         color: Colors.white,
                       ),
-                      title: Text('他还好吗'),
-                      onTap: () {},
-                      onLongPress: () {
-                        print('changan');
-                      },
-                    ),
-                    ListTile(
-                      leading: Icon(
-                        Icons.accessibility_new,
-                        color: Colors.white,
-                      ),
-                      title: Text('比泪水坚强'),
+                      title: Text('FlutterTheme速查'),
                       onTap: () {},
                       onLongPress: () {
                         print('changan');

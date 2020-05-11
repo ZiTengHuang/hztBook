@@ -22,10 +22,11 @@ class _MixtureAnimationState extends State<MixtureAnimation>
 
   @override
   Widget build(BuildContext context) {
+
     var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
-
     double centerWidth = width / 2;
+
     view1 = height * 0.1;
     view2 = height * 0.5;
     postionRed = height / 2 - 170;
@@ -49,6 +50,7 @@ class _MixtureAnimationState extends State<MixtureAnimation>
     );
   }
 }
+
 
 class View1 extends StatefulWidget {
   final double width;
@@ -78,6 +80,17 @@ class _View1State extends State<View1> with TickerProviderStateMixin {
   AnimationController _PostionAnimationController2;
   Animation<double> _PostionAnimation2;
 
+
+
+    AnimationController _PostionAnimationController77;
+  Animation<double> _PostionAnimation77;
+  AnimationController _PostionAnimationController88;
+  Animation<double> _PostionAnimation88;
+
+
+
+
+
   AnimationController _PostionAnimationController3;
   Animation<double> _PostionAnimation3;
 
@@ -95,6 +108,10 @@ class _View1State extends State<View1> with TickerProviderStateMixin {
 
   bool stepOne = true;
   double _opacity = 0;
+  bool isfalse = true;
+
+  double animationPosition ;
+  double animationPosition2  ;
 
   @override
   void initState() {
@@ -104,13 +121,17 @@ class _View1State extends State<View1> with TickerProviderStateMixin {
     print('view1点${widget.view1}');
     print('view2点${widget.view2}');
 
+    animationPosition = widget.view1;
+    animationPosition2=widget.view2;
     _PostionAnimationController =
         new AnimationController(vsync: this, duration: Duration(seconds: 1));
     _PostionAnimation =
         Tween<double>(begin: widget.view1, end: widget.postionRed)
             .animate(_PostionAnimationController)
               ..addListener(() {
-                setState(() {});
+                setState(() {
+                  animationPosition = _PostionAnimation.value;
+                });
 //                print(_PostionAnimation.value);
               });
 
@@ -120,9 +141,45 @@ class _View1State extends State<View1> with TickerProviderStateMixin {
         Tween<double>(begin: widget.view2, end: widget.postionRed)
             .animate(_PostionAnimationController2)
               ..addListener(() {
-                setState(() {});
+                setState(() {
+                  animationPosition2 = _PostionAnimation2.value;
+
+
+
+                });
 //                print(_PostionAnimation.value2);
               });
+
+        _PostionAnimationController77 =
+        new AnimationController(vsync: this, duration: Duration(seconds: 1));
+    _PostionAnimation77 =
+        Tween<double>(begin: widget.postionRed , end:widget.view1)
+            .animate(_PostionAnimationController77)
+              ..addListener(() {
+                setState(() {
+                  animationPosition = _PostionAnimation77.value;
+
+                });
+//                print(_PostionAnimation.value);
+              });
+
+    _PostionAnimationController88 =
+        new AnimationController(vsync: this, duration: Duration(seconds: 1));
+    _PostionAnimation88 =
+        Tween<double>(begin: widget.postionRed , end: widget.view2)
+            .animate(_PostionAnimationController88)
+              ..addListener(() {
+                setState(() {
+                  animationPosition2 = _PostionAnimation88.value;
+                });
+//                print(_PostionAnimation.value2);
+              });
+
+
+
+
+
+
 
     _PostionAnimationController3 =
         new AnimationController(vsync: this, duration: Duration(seconds: 1));
@@ -189,10 +246,24 @@ class _View1State extends State<View1> with TickerProviderStateMixin {
                 });
               }),
         ),
+
+        Align(
+          alignment: Alignment.bottomLeft,
+          child: RaisedButton(
+              child: Text('按钮2'),
+              onPressed: () {
+                _PostionAnimationController.forward(from: 0);
+                _PostionAnimationController2.forward(from: 0).then((_){
+                    _PostionAnimationController77.forward(from: 0);
+                    _PostionAnimationController88.forward(from: 0);
+                });
+
+              }),
+        ),
         Visibility(
           visible: stepOne,
           child: Positioned(
-            top: _PostionAnimation.value,
+            top: animationPosition,
             left: 0,
             child: Container(
               decoration: BoxDecoration(
@@ -223,7 +294,7 @@ class _View1State extends State<View1> with TickerProviderStateMixin {
         Visibility(
           visible: stepOne,
           child: Positioned(
-            top: _PostionAnimation2.value,
+            top: animationPosition2,
             left: 0,
             child: Container(
               decoration: BoxDecoration(

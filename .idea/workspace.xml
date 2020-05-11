@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b39089-a310-4564-87eb-c80affa007ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tt_book/assets/images/fack_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/assets/images/faguang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/widget/myEnglish/myEngelish.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/postionAndFade.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/sliver/SliverPageDetails.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/dao/search_dao.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/dao/search_dao.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tt_book/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/routers/router_handler.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/routers/router_handler.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/routers/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/routers/routes.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/grid/basic_grid.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/grid/basic_grid.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/my_page_layout.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/my_page_layout.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/BasicViewOnDraw.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/BasicViewOnDraw.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_one.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_one.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_three.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_three.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_two.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_two.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/provider/theme_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/provider/theme_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/subject/colorThemePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/subject/colorThemePage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/util/ThemeUtils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/util/ThemeUtils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/postionAndFade.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/postionAndFade.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tt_book/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,12 +28,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/sliver/SliverPageDetails.dart">
+        <entry file="file://$PROJECT_DIR$/tt_book/lib/subject/colorThemePage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="225">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tt_book/lib/provider/theme_provider.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/flustars-0.2.6+1/lib/src/sp_util.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/animationsWidget/FavAnimation.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1605">
+              <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/postionAndFade.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="228" column="40" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
+            <state relative-caret-position="2700">
+              <caret line="181" selection-start-line="181" selection-end-line="181" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -60,22 +87,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tt_book/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+            <state relative-caret-position="345">
+              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart">
+        <entry file="file://$PROJECT_DIR$/tt_book/lib/util/theme_utils.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2732">
-              <caret line="183" column="11" selection-start-line="183" selection-start-column="2" selection-end-line="183" selection-end-column="11" />
+            <state relative-caret-position="270">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#1#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt_book/lib/util/ThemeUtils.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +139,7 @@
       <find>NativeFieldWrapperClass2</find>
       <find>text</find>
       <find>GridDataProvider</find>
+      <find>按钮</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,21 +161,29 @@
         <option value="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_one.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/BasicViewOnDraw.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_three.dart" />
-        <option value="$PROJECT_DIR$/tt_book/lib/main.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/page/grid/basic_grid.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/page/my_page_layout.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/myEnglish/myEngelish.dart" />
-        <option value="$PROJECT_DIR$/tt_book/pubspec.yaml" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/page/sliver/SliverPageDetails.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/routers/router_handler.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/routers/routes.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_two.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/dao/search_dao.dart" />
         <option value="$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/postionAndFade.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/subject/color_theme.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/subject/text_theme_theme.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/subject/code_theme.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart" />
+        <option value="$PROJECT_DIR$/tt_book/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/tt_book/lib/main.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/util/ThemeUtils.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/subject/colorThemePage.dart" />
+        <option value="$PROJECT_DIR$/tt_book/lib/provider/theme_provider.dart" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1300" />
     <option name="height" value="983" />
@@ -148,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,34 +204,23 @@
               <item name="hztBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="hztBook" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hztBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hztBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hztBook" type="462c0819:PsiDirectoryNode" />
-              <item name="tt_book" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tt_book/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tt_book/lib/common" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tt_book/lib/common" />
       <recent name="$PROJECT_DIR$/tt_book/assets/images" />
       <recent name="$PROJECT_DIR$/tt_book/assets/images/wufu" />
       <recent name="$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw" />
@@ -234,10 +272,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1300" height="983" extended-state="0" />
+    <frame x="0" y="23" width="1300" height="983" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49943882" visible="true" weight="0.28060412" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49943882" visible="true" weight="0.26391098" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -264,107 +303,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/view/CommonVariables.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#894#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/view/BezierExample.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/scan/RScanCameraDialog.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/london.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/lf30_editor_Fn31Jf.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/8608-simple-radar-ripple-effect.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/15998-flip-card.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/image.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5782">
-          <caret line="253" column="6" selection-start-line="253" selection-start-column="6" selection-end-line="253" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/flutter/bin/cache/pkg/sky_engine/lib/ui/geometry.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="346" column="6" selection-start-line="346" selection-start-column="6" selection-end-line="346" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/BasicViewOnDraw.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/type_channeltrain.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/type_channelgroup.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/plate3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/plate5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/rendering/custom_paint.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="571" column="6" selection-start-line="571" selection-start-column="6" selection-end-line="571" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/type_food.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/flutter/bin/cache/pkg/sky_engine/lib/ui/painting.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="3710" column="32" lean-forward="true" selection-start-line="3710" selection-start-column="32" selection-end-line="3710" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/type_district.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/view/view_ondraw/basic_view_one.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -393,16 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,30 +455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2732">
-          <caret line="183" column="11" selection-start-line="183" selection-start-column="2" selection-end-line="183" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/foundation/diagnostics.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="1224" column="62" selection-start-line="1224" selection-start-column="62" selection-end-line="1224" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/sliver/SliverPageDetails.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,16 +496,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/wufu/fack_bg.png">
+    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/wufu/fack_bg.png" />
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/dao/search_dao.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/animation/animation.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/sliver/SliverPageDetails.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/common/common.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/common/themes.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/theme_data.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="665" column="67" selection-start-line="665" selection-start-column="67" selection-end-line="665" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/subject/text_theme_theme.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/common/LocalStorage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/subject/color_theme.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/subject/code_theme.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="259" column="20" lean-forward="true" selection-start-line="259" selection-start-column="20" selection-end-line="259" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/res/styles.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/res/colors.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/faguang.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/assets/images/lf30_editor_8n16I8.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tt_book/assets/images/fack_bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/subject/colorThemePage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/flustars-0.2.6+1/lib/src/sp_util.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/animationsWidget/FavAnimation.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tt_book/lib/widget/page/AnimationPages/postionAndFade.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="228" column="40" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
+        <state relative-caret-position="2700">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -606,8 +635,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tt_book/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        <state relative-caret-position="345">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/util/theme_utils.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#1#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/util/ThemeUtils.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt_book/lib/provider/theme_provider.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
