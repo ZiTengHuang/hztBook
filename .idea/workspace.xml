@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b39089-a310-4564-87eb-c80affa007ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hzt.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/res/mipmap-xxhdpi/logoko.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/android/key.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/common/download_x/在线更新" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/provider/ShopCarProvider.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/provider/goods_provider.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/reconsitution/routers/404.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/reconsitution/routers/application.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/reconsitution/routers/fluro_navigator.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/reconsitution/routers/home_router.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/reconsitution/routers/router_init.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt_book/lib/reconsitution/routers/routers.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hztBook-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hztBook-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/subject/colorThemePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/subject/colorThemePage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/myEnglish/myEngelish.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/myEnglish/myEngelish.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/WidgetsPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/lib/widget/page/home_page_layout.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt_book/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tt_book/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="c2b39089-a310-4564-87eb-c80affa007ea" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +238,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1305" height="982" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49943882" visible="true" weight="0.29136977" />
