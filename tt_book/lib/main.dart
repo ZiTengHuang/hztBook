@@ -4,13 +4,15 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:tt_book/models/jsonExample.dart';
+import 'package:tt_book/provider/goods_provider.dart';
 import 'package:tt_book/provider/gridData_provider.dart';
 import 'package:tt_book/provider/theme_provider.dart';
+import 'package:tt_book/reconsitution/routers/application.dart';
 import 'package:tt_book/routers/Application.dart';
 import 'package:tt_book/routers/routes.dart';
 import 'package:tt_book/widget/page/my_page_layout.dart';
 import 'package:tt_book/widget/provide/countr_provide.dart';
-
+import 'package:tt_book/reconsitution/routers/routers.dart';
 void main() async{
   /// 确保flutter 应用已经起来了。在调用之后的内容
   WidgetsFlutterBinding.ensureInitialized();
@@ -47,7 +49,11 @@ class _DynamicThemeState extends State<DynamicTheme> {
     final router = Router();
     Routes.configureRoutes(router);
     Application.router = router;
-    return ChangeNotifierProvider<ThemeProvider>(
+
+    FluroApplication.router =router;
+    Routers2.configureRoutes(router);
+
+     return ChangeNotifierProvider<ThemeProvider>(
       create: (_) => ThemeProvider(),
       child: Consumer<ThemeProvider>(builder: (_, provider, __) {
         return MultiProvider(
@@ -59,14 +65,16 @@ class _DynamicThemeState extends State<DynamicTheme> {
             ChangeNotifierProvider<GridDataProvider>(
                 create: (_) => GridDataProvider()),
 //            Provider<CounterProvide>(create: (_)=>CounterProvide()),
+            ChangeNotifierProvider<GoodsProvider>(create: (_)=>GoodsProvider())
           ],
           child: MaterialApp(
             title: '小黄书院',
             color: Colors.amber,
             theme: provider.getTheme(),
             darkTheme: ThemeData.dark(),
-            themeMode:
-                provider.lightMode == 0 ? ThemeMode.light : ThemeMode.dark,
+            themeMode: provider.lightMode == 0 ? ThemeMode.light : ThemeMode.dark,
+
+
             home: MainPage(),
           ),
         );

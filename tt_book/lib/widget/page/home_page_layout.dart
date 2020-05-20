@@ -1,12 +1,15 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:tt_book/common/themes.dart';
 import 'package:tt_book/models/place_model.dart';
 import 'package:tt_book/provider/theme_provider.dart';
+import 'package:tt_book/reconsitution/routers/fluro_navigator.dart';
+import 'package:tt_book/reconsitution/routers/home_router.dart';
 import 'package:tt_book/subject/colorThemePage.dart';
 import 'package:tt_book/widget/page/AnimationPages/FadeAnimation.dart';
 import 'package:tt_book/widget/page/place_screen.dart';
 import 'package:provider/provider.dart';
-
 import 'common/banner_layout.dart';
 
 const Color backgroudundColor = Color(0xff4a4a58);
@@ -14,6 +17,38 @@ const Color backgroudundColor = Color(0xff4a4a58);
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
+}
+
+
+class TestModel{
+  ///定义一个集合实体类型
+  final List<ModelTestEntity> data;
+  TestModel({this.data});
+  factory TestModel.fromJson(Map<String,dynamic> json){
+    /// 获取data里的数据并且转换成list
+       var dataJson = json['data'] as List ;
+       ///声明一个接收集合来保存 转换后的数据
+      List<ModelTestEntity> jsonData = dataJson.map((value){
+        ModelTestEntity.fromJson(value);
+      }).toList();
+      return TestModel(data: jsonData);
+  }
+}
+
+class ModelTestEntity {
+  final String name;
+  final int age;
+  final String address;
+
+  ModelTestEntity({this.name, this.age, this.address});
+
+  factory ModelTestEntity.fromJson(Map<String, dynamic> json) {
+    return ModelTestEntity(
+        name: json['name'],
+        age: json['age'],
+        address: json['address']
+    );
+  }
 }
 
 class _HomePageState extends State<HomePage>
@@ -38,6 +73,7 @@ class _HomePageState extends State<HomePage>
     _menuScaleAnimation = Tween<double>(begin: 0, end: 1).animate(_controller);
     _slideAnimation = Tween<Offset>(begin: Offset(-1, 0), end: Offset(0, 0))
         .animate(_controller);
+    modelTest();
   }
 
   @override
@@ -45,6 +81,29 @@ class _HomePageState extends State<HomePage>
     // TODO: implement dispose
     super.dispose();
     _controller.dispose();
+  }
+
+  modelTest() {
+    String model1 = '{"name":"黄紫腾","age":25,"address":"湖南"}';
+    print(model1);
+    print(model1 is String); // ture
+    if (model1 is String) {
+      var json = jsonDecode(model1);
+      print(json); //{name: 黄紫腾, age: 25, address: 湖南}
+//         print(jsonEncode(json)); //{"name":"黄紫腾","age":25,"address":"湖南"}
+      print('======获取json Key中的值');
+      print(json['name']); //黄紫腾
+      print(json['age']); //25
+      print(json['address']); //湖南
+      print(json['address2'] ?? '这是默认值'); //这是默认值
+      print(json['address2']); //null
+
+
+      ModelTestEntity entity= ModelTestEntity.fromJson(json);
+      print(entity.name);
+      print(entity.age);
+      print(entity.address);
+    }
   }
 
   Column _buildPopularPlaces() {
@@ -132,9 +191,10 @@ class _HomePageState extends State<HomePage>
                       ),
                       title: Text('切换主题颜色'),
                       onTap: () {
-                           Navigator.push(context, MaterialPageRoute(builder: (_){
-                                return ColorThemePage();
-                           }));
+                        NavigatorUtils.push(context, 'ColorThemePage');
+//                           Navigator.push(context, MaterialPageRoute(builder: (_){
+//                                return ColorThemePage();
+//                           }));
                       },
                       onLongPress: () {
                         print('changan');
@@ -148,7 +208,8 @@ class _HomePageState extends State<HomePage>
                       title: Text('切换语言'),
                       onTap: () {},
                       onLongPress: () {
-                        print('changan');
+                        print('=====');
+                        NavigatorUtils.goHome(context);
                       },
                     ),
                     ListTile(
@@ -270,6 +331,8 @@ class _HomePageState extends State<HomePage>
                                     ? Colors.transparent
                                     : Color(0xffd2d1d6))),
                         onPressed: () {
+                          NavigatorUtils.goWebViewPage(
+                              context, '百度', 'https://www.baidu.com');
                           Provider.of<ThemeProvider>(context).setTheme(
                               _searchType == 0
                                   ? Themes.SYSTEM
@@ -391,35 +454,36 @@ class _HomePageState extends State<HomePage>
                   FadeAnimation(
                     delay: 2.2,
                     child: FlatButton(
-                          color: Color(0xff309df1),
-                          padding: EdgeInsets.symmetric(vertical: 14),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          onPressed: () {},
-                          child: Text(
-                            'Search',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 30,
-                                fontWeight: FontWeight.w700),
-                          )),
+                        color: Color(0xff309df1),
+                        padding: EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        onPressed: () {},
+                        child: Text(
+                          'Search',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 30,
+                              fontWeight: FontWeight.w700),
+                        )),
                   ),
                   Container(
-                     height: 400,
+                    height: 400,
                     width: double.infinity,
-                     child: Stack(
-                       children: <Widget>[
-                            Positioned(child: FadeAnimation(
-                              delay: 1.4,
-                              child: Container(
-                                height: 100,
-                                width: 120,
-                                color: Colors.redAccent,
-                              ),
-                            ))
-                        ],
-                     ),
+                    child: Stack(
+                      children: <Widget>[
+                        Positioned(
+                            child: FadeAnimation(
+                          delay: 1.4,
+                          child: Container(
+                            height: 100,
+                            width: 120,
+                            color: Colors.redAccent,
+                          ),
+                        ))
+                      ],
+                    ),
                   ),
                   SizedBox(
                     height: 10,

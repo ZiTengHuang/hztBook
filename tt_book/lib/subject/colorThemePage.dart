@@ -9,6 +9,10 @@ class ColorThemePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+          leading: IconButton(icon: Icon(Icons.forward ), onPressed: (){
+            Navigator.popUntil(context, (route) => route.isFirst);
+
+          }),
           title: Text('切换颜色'),
         actions: <Widget>[
             IconButton(icon: ThemeUtils.isDark(context) ? Icon(Icons.brightness_7) : Icon(Icons.brightness_2 ), onPressed: (){
