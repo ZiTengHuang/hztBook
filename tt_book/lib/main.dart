@@ -13,6 +13,8 @@ import 'package:tt_book/routers/routes.dart';
 import 'package:tt_book/widget/page/my_page_layout.dart';
 import 'package:tt_book/widget/provide/countr_provide.dart';
 import 'package:tt_book/reconsitution/routers/routers.dart';
+
+import 'common/HYSizeFit.dart';
 void main() async{
   /// 确保flutter 应用已经起来了。在调用之后的内容
   WidgetsFlutterBinding.ensureInitialized();
@@ -46,6 +48,7 @@ class _DynamicThemeState extends State<DynamicTheme> {
 
   @override
   Widget build(BuildContext context) {
+//    HYSizeFit.initialize(context);
     final router = Router();
     Routes.configureRoutes(router);
     Application.router = router;

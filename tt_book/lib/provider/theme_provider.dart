@@ -66,7 +66,7 @@ class ThemeProvider extends ChangeNotifier {
     return ThemeData(
 //        errorColor: isDarkMode ? Colours.dark_red : Colours.red,
 //        brightness: isDarkMode ? Brightness.dark : Brightness.light,
-        primaryColor: Colours.app_main,
+        primaryColor: Colours.dark_button_disabled,
 //        accentColor: isDarkMode ? Colours.dark_app_main : Colours.app_main,
 //        // Tab指示器颜色
 //        indicatorColor: isDarkMode ? Colours.dark_app_main : Colours.app_main,

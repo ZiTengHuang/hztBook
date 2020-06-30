@@ -2,6 +2,8 @@ import 'package:flip_box_bar/flip_box_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:tt_book/widget/myEnglish/myEngelish.dart';
 import 'package:tt_book/widget/page/WidgetsPage.dart';
+import 'package:tt_book/widget/page/shop_car_page.dart';
+import 'package:tt_book/widget/page/shop_page.dart';
 
 import 'home_page_layout.dart';
 import 'jacksman.dart';
@@ -20,8 +22,8 @@ class _MainPageState extends State<MainPage> {
     HomePage(),
 //  OrderPage(),
     WidgetsPage(),
-    HomePage(),
-    JacksmanPage(),
+    ShopPage(),
+    ShopCarPage(),
     MyEngelish(),
   ];
 

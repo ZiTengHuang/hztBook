@@ -14,7 +14,7 @@ description: 专供自己使用的看书app
 version: 1.0.1+2
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.6.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -47,6 +47,8 @@ dependencies:
   after_layout:
   shared_preferences:
   flutter_inappwebview:
+  google_fonts:
+  scrollable_positioned_list: ^0.1.6
 
 
 
@@ -69,7 +71,6 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-
   assets:
     - assets/images/
     - assets/images/wufu/

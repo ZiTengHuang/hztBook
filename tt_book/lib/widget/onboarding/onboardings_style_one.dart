@@ -42,10 +42,10 @@ class _OnboardingsStyleOneState extends State<OnboardingsStyleOne> {
                 });
               }, child: Text('SkIP')),
               Row(children: <Widget>[
-                for(int i = 0; i < totalPages; i++ )
-                  i == _currentPage
-                      ? _buildPageIndicator(true)
-                      : _buildPageIndicator(false),
+//                for(int i = 0; i < totalPages; i++ )
+//                  i == _currentPage
+//                      ? _buildPageIndicator(true)
+//                      : _buildPageIndicator(false),
 
               ],),
               FlatButton(onPressed: () {

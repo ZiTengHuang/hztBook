@@ -12,5 +12,6 @@ class HomeRouter extends IRouterProvider {
 
     router.define(colorThemePage, handler: Handler(handlerFunc: (_, params) => ColorThemePage()));
     router.define(home, handler: Handler(handlerFunc: (_, params) => MainPage()));
+
   }
 }
