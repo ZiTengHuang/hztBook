@@ -1,3 +1,4 @@
+import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tt_book/reconsitution/routers/fluro_navigator.dart';
@@ -20,7 +21,8 @@ class widgetsModel {
 
   widgetsModel(this.nativePath, this.title,
       {this.icon = const Icon(Icons.build),
-      this.color = const Color(0xfff7f7f7), this.routeType = 1});
+      this.color = const Color(0xfff7f7f7),
+      this.routeType = 1});
 }
 
 class _WidgetsPageState extends State<WidgetsPage> {
@@ -131,13 +133,24 @@ class _WidgetsPageState extends State<WidgetsPage> {
             color: Colors.red,
           ),
           color: Colors.yellow),
-
       new widgetsModel('/ColdPage', 'pageviewAniamtion',
           icon: Icon(
             Icons.forward,
             color: Colors.red,
           ),
           color: Colors.yellow),
+      new widgetsModel('/PickerUtils', 'PickerUtils',
+          icon: Icon(
+            Icons.select_all,
+            color: Colors.blue,
+          ),
+          color: Colors.deepOrange),
+      new widgetsModel('/CartTextPage', '购物车逻辑',
+          icon: Icon(
+            Icons.shopping_cart,
+            color: Colors.lightGreen,
+          ),
+          color: Colors.amber),
     ];
   }
 
@@ -217,14 +230,16 @@ class widgetsGridPlant extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return GestureDetector(
                     onTap: () {
-                      if(gridModel[index].routeType == 1){
-                      if (gridModel[index].nativePath == null ||
-                          gridModel[index].nativePath == '') return;
+                      if (gridModel[index].routeType == 1) {
+                        if (gridModel[index].nativePath == null ||
+                            gridModel[index].nativePath == '') return;
 
-                      Application.router
-                          .navigateTo(context, gridModel[index].nativePath);
-                      }else{
-                        NavigatorUtils.push(context, gridModel[index].nativePath);
+                        Application.router.navigateTo(
+                            context, gridModel[index].nativePath,
+                            transition: TransitionType.fadeIn);
+                      } else {
+                        NavigatorUtils.push(
+                            context, gridModel[index].nativePath);
                       }
                     },
                     onLongPress: () {},

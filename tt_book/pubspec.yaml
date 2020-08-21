@@ -49,6 +49,14 @@ dependencies:
   flutter_inappwebview:
   google_fonts:
   scrollable_positioned_list: ^0.1.6
+  package_info: any #设备信息
+  cached_network_image:
+  fbutton:
+  fsuper:
+  flutter_picker: ^1.1.5
+  date_format: ^1.0.8 #时间处理
+  easy_localization: ^2.3.3
+  
 
 
 

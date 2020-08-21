@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tt_book/provider/goods_provider.dart';
+import 'package:tt_book/reconsitution/routers/fluro_navigator.dart';
 
 class MyEngelish extends StatefulWidget {
   @override
@@ -27,6 +28,7 @@ class _MyEngelishState extends State<MyEngelish> {
                   FlatButton(
                     onPressed: () {
                       notifile.add(23.0);
+                      NavigatorUtils.push(context, '/GuidePage');
                     },
                     child: Text('点我增加23'),
                   ),

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:tt_book/reconsitution/routers/home_router.dart';
 import 'package:tt_book/reconsitution/routers/router_init.dart';
 import 'package:tt_book/reconsitution/routers/widgets_router.dart';
-import 'package:tt_book/widget/customer/web/custom_web.dart';
 import 'package:tt_book/widget/page/my_page_layout.dart';
 import '404.dart';
 
@@ -27,11 +26,11 @@ class Routers2 {
                     MainPage()));
 
     ///跳转到webview
-    router.define(webViewPage, handler: Handler(handlerFunc: (_, params) {
-      String title = params['title']?.first;
-      String url = params['url']?.first;
-      return CustomWeb(title: title, url: url);
-    }));
+//    router.define(webViewPage, handler: Handler(handlerFunc: (_, params) {
+//      String title = params['title']?.first;
+//      String url = params['url']?.first;
+//      return CustomWeb(title: title, url: url);
+//    }));
 
     _listRouters.clear();
 
