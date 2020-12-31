@@ -27,7 +27,11 @@ import 'package:tt_book/widget/view/littleAnimation.dart';
 import 'package:tt_book/widget/view/steper_bar_widget3.dart';
 import 'package:tt_book/widget/view/view_ondraw/BasicViewOnDraw.dart';
 import 'package:tt_book/widget/page/sliver/SliverPageDetails.dart';
-import '../widget/view/BezierViewBasic.dart';
+import 'package:tt_book/widget/page/sliver/BasicSliverOne.dart';
+import 'package:tt_book/widget/page/sliver/BasicSliverTwo.dart';
+import 'package:tt_book/widget/page/sliver/BasicSliverThree.dart';
+import 'package:tt_book/widget/page/sliver/BasicSliverFour.dart';
+ import '../widget/view/BezierViewBasic.dart';
 import '../widget/view/BezierExample.dart';
 
 /// 跳转抽奖界面
@@ -157,4 +161,24 @@ Handler SliverPageDetailsHanderl = Handler(
 Handler MixtureAnimationHanderl = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> params) {
   return MixtureAnimation();
+});
+
+Handler BasicSliverOneHanderl = Handler(
+    handlerFunc: (BuildContext context, Map<String, List<String>> params) {
+  return BasicSliverOne();
+});
+
+Handler BasicSliverTwoHanderl = Handler(
+    handlerFunc: (BuildContext context, Map<String, List<String>> params) {
+  return BasicSliverTwo();
+});
+
+Handler BasicSliverThreeHanderl = Handler(
+    handlerFunc: (BuildContext context, Map<String, List<String>> params) {
+  return BasicSliverThree();
+});
+
+Handler BasicSliverFourHanderl = Handler(
+    handlerFunc: (BuildContext context, Map<String, List<String>> params) {
+  return BasicSliverFour();
 });

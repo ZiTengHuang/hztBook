@@ -18,6 +18,7 @@ class paramInfo {
 
 class _ColdPageState extends State<ColdPage>
     with SingleTickerProviderStateMixin {
+
   TabController _tabController;
   PageController _pageController;
   var isPageCanChangedFinish = true;

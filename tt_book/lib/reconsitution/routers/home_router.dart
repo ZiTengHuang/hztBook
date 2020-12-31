@@ -1,6 +1,7 @@
 import 'package:fluro/fluro.dart';
 import 'package:provider/provider.dart';
 import 'package:tt_book/customView/hrbottombar/HrBottomBarMain.dart';
+import 'package:tt_book/getx/getMainPage.dart';
 import 'package:tt_book/guide/GuidePage.dart';
 import 'package:tt_book/reconsitution/routers/router_init.dart';
 import 'package:tt_book/subject/colorThemePage.dart';
@@ -16,6 +17,7 @@ class HomeRouter extends IRouterProvider {
   static String guidePage = '/GuidePage';
   static String pickerUtils = "/PickerUtils";
   static String cartTextPage = "/CartTextPage";
+  static String getMainPage = "/GetMainPage";
 
   @override
   void initRouter(Router router) {
@@ -31,6 +33,9 @@ class HomeRouter extends IRouterProvider {
         handler: Handler(handlerFunc: (_, params) => GuidePage()));
     router.define(pickerUtils,
         handler: Handler(handlerFunc: (_, params) => PickerUtils()));
+    router.define(getMainPage,
+        handler: Handler(handlerFunc: (_, params) => GetMainPage()));
+
     router.define(cartTextPage, handler: Handler(handlerFunc: (_, params) {
       return ChangeNotifierProvider<CartProvider>(
         create: (_) => CartProvider(),

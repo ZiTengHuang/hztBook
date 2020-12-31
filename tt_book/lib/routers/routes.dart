@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluro/fluro.dart';
 import 'package:tt_book/routers/router_handler.dart';
+import 'package:tt_book/widget/page/sliver/BasicSliverFour.dart';
 
 class Routes{
 
@@ -27,6 +28,10 @@ class Routes{
   static String ScanWidget = '/ScanWidget';
   static String BasicViewOnDraw = '/BasicViewOnDraw';
   static String SliverPageDetails = '/SliverPageDetails';
+  static String BasicSliverOne = '/BasicSliverOne';
+  static String BasicSliverTwo = '/BasicSliverTwo';
+  static String BasicSliverThree = '/BasicSliverThree';
+  static String BasicSliverFour = '/BasicSliverFour';
   static String MixtureAnimation = '/MixtureAnimation';
 
 
@@ -60,6 +65,10 @@ class Routes{
     router.define(ScanWidget, handler:ScanWidgetHanderl,transitionType: TransitionType.native);
     router.define(BasicViewOnDraw, handler:BasicViewOnDrawHanderl,transitionType: TransitionType.native);
     router.define(SliverPageDetails, handler:SliverPageDetailsHanderl,transitionType: TransitionType.native);
+    router.define(BasicSliverOne, handler:BasicSliverOneHanderl,transitionType: TransitionType.native);
+    router.define(BasicSliverTwo, handler:BasicSliverTwoHanderl,transitionType: TransitionType.native);
+    router.define(BasicSliverThree, handler:BasicSliverThreeHanderl,transitionType: TransitionType.native);
+    router.define(BasicSliverFour, handler:BasicSliverFourHanderl,transitionType: TransitionType.native);
     router.define(MixtureAnimation, handler:MixtureAnimationHanderl,transitionType: TransitionType.native);
   }
 }

@@ -151,6 +151,54 @@ class _WidgetsPageState extends State<WidgetsPage> {
             color: Colors.lightGreen,
           ),
           color: Colors.amber),
+      new widgetsModel('BasicSliverOne', 'sliver学习1',
+          icon: Icon(
+            Icons.shopping_cart,
+            color: Colors.lightGreen,
+          ),
+          color: Colors.amber),
+      new widgetsModel('BasicSliverTwo', 'sliver学习2',
+          icon: Icon(
+            Icons.shopping_cart,
+            color: Colors.lightGreen,
+          ),
+          color: Colors.amber),
+      new widgetsModel('BasicSliverThree', 'sliver学习3',
+          icon: Icon(
+            Icons.shopping_cart,
+            color: Colors.lightGreen,
+          ),
+          color: Colors.amber),
+      new widgetsModel('BasicSliverFour', 'sliver学习4',
+          icon: Icon(
+            Icons.shopping_cart,
+            color: Colors.lightGreen,
+          ),
+          color: Colors.amber),
+      new widgetsModel('/PrettyBottomBar', '漂亮底部BAR',
+          icon: Icon(
+            Icons.border_bottom,
+            color: Colors.lightGreen,
+          ),
+          color: Colors.amber),
+      new widgetsModel('/PackRefresh', '通用刷新',
+          icon: Icon(
+            Icons.refresh,
+            color: Colors.lightGreen,
+          ),
+          color: Colors.amber),
+      new widgetsModel('/DownOpenImg', '下拉图片放大',
+          icon: Icon(
+            Icons.arrow_downward,
+            color: Colors.lightGreen,
+          ),
+          color: Colors.amber),
+      new widgetsModel('/GetMainPage', 'Get插件',
+          icon: Icon(
+            Icons.gesture,
+            color: Colors.red,
+          ),
+          color: Colors.teal),
     ];
   }
 

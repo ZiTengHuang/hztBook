@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:package_info/package_info.dart';
 import 'package:tt_book/value/AppConfigValue.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /**
  * 通用逻辑
@@ -138,7 +139,13 @@ class CommonUtils {
     return '${packageInfo.packageName}';
   }
 
-
+  static launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
   /** 复制到剪粘板 */
   static copyToClipboard(final String text) {
     if (text == null) return;
